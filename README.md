@@ -1,2 +1,1 @@
-This is just a start of my new portfolio site.
-I'll be making incremental updates to this site.
+Personal playground project where I'll experiment with new things and keep up the momentum of doing some light coding.
