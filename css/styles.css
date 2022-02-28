@@ -1,15 +1,8 @@
-* {
-	margin:0;
-	padding:0;
-}
-
 body, html {
-	min-height: 100%;
 	font-size: 1.2em;
 	line-height: 1.3em;
 	background-color: #111;
 	color: #fff;
-	-webkit-font-size-adjust: none;
 }
 
 h1, h2, p, strong {
@@ -25,30 +18,16 @@ h1 {
 	line-height: 1.1em;
 }
 
+a {
+	color:#0ff;
+	text-decoration: none;
+}
+a:hover {
+	color:#0ff;
+	text-decoration: underline;
+}
+
 #content {
 	max-width: 640px;
 	margin: 0 5%;
-	padding: 50px 0;
-}
-
-hr {
-	display: block;
-	width: 100%;
-	margin-top: 16px;
-	padding-bottom: 16px;
-	border-top: 1px solid #444;
-	border-width: 1px 0 0 0;
-}
-
-a {
-	color:#0ff;
-	text-decoration:none;
-}
-
-a:hover {
-	text-decoration:underline;
-}
-
-span {
-	white-space: nowrap;
 }
