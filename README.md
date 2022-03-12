@@ -12,7 +12,7 @@ npm install
 
 ## Usage
 
-Run webpack in development mode
+Run webpack in development mode:
 ```
 npm run dev
 ```
