@@ -1,8 +1,17 @@
+$mainBlue: #2f5572;
+
 body, html {
 	font-size: 1.2em;
 	line-height: 1.3em;
 	background-color: #111;
 	color: #fff;
+	background-color: $mainBlue;
+}
+
+.large-hero {
+	h2 {
+		color: $mainBlue;
+	}
 }
 
 h1, h2, p, strong {

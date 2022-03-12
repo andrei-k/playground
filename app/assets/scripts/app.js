@@ -1,1 +1,1 @@
-console.log("Just getting started...");
+import "../styles/styles.css"
