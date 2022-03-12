@@ -14,3 +14,15 @@
 	width: 100%;
 	text-align: center;
 }
+
+.hero__title {
+	font-family: "Geneva", sans-serif;
+	font-weight: 600;
+	font-size: 4.8rem;
+}
+
+.hero__subtitle {
+	font-family: "Geneva", sans-serif;
+	font-weight: 200;
+	font-size: 3rem;
+}

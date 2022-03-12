@@ -8,13 +8,6 @@ body {
     color: #fff;
 }
 
-h1 {
-	font-family: "Geneva", sans-serif;
-	font-size: 2em;
-	font-weight: 400;
-	line-height: 1.1em;
-}
-
 a {
 	color:#0ff;
 	text-decoration: none;
@@ -25,8 +18,3 @@ a {
 	}
 }
 
-#content {
-	max-width: 640px;
-	margin: 0 auto;
-	padding: 0 20px;
-}
