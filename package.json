@@ -19,7 +19,8 @@
 	},
 	"homepage": "https://github.com/andrei-k/playground#readme",
 	"dependencies": {
-		"lodash": "^4.17.21"
+		"lodash": "^4.17.21",
+		"normalize.css": "^8.0.1"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.2",
