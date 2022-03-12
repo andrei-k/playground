@@ -16,3 +16,4 @@ Run webpack in development mode:
 ```
 npm run dev
 ```
+(^C to exit watch mode in command line)
