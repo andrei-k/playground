@@ -1,28 +1,28 @@
 .hero {
 	position: relative;
-}
 
-.hero__image {
-	width: 100%;
-}
+	&__image {
+		width: 100%;
+	}
 
-.hero__text-content {
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	left: 0;
-	width: 100%;
-	text-align: center;
-}
+	&__text-content {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+		left: 0;
+		width: 100%;
+		text-align: center;
+	}
 
-.hero__title {
-	font-family: "Geneva", sans-serif;
-	font-weight: 600;
-	font-size: 4.8rem;
-}
-
-.hero__subtitle {
-	font-family: "Geneva", sans-serif;
-	font-weight: 200;
-	font-size: 3rem;
+	&__title {
+		font-family: "Geneva", sans-serif;
+		font-weight: 600;
+		font-size: 4.8rem;
+	}
+	
+	&__subtitle {
+		font-family: "Geneva", sans-serif;
+		font-weight: 200;
+		font-size: 3rem;
+	}
 }

@@ -2,10 +2,10 @@
 	max-width: 640px;
 	margin: 0 auto;
 	padding: 0 20px;
-}
 
-.text-block__title {
-	font-family: "Geneva", sans-serif;
-	font-weight: 400;
-	font-size: 2.8rem;
+	&__title {
+		font-family: "Geneva", sans-serif;
+		font-weight: 400;
+		font-size: 2.8rem;
+	}
 }
