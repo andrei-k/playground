@@ -1,7 +1,7 @@
 {
 	"name": "playground",
 	"version": "1.0.0",
-	"description": "Personal playground project where I'll experiment with new things and keep up the momentum of doing some light coding.",
+	"description": "Personal playground project where I'll experiment with interesting things and keep up the momentum of doing some light coding.",
 	"main": "index.js",
 	"scripts": {
 		"dev": "webpack",
