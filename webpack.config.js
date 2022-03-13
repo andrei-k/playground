@@ -23,18 +23,18 @@ module.exports = {
 	mode: "development",
 	module: {
 		rules: [
-		{
+			{
 				test: /\.css$/i,
 				use: [
-				"style-loader",
-				{
-					loader: "css-loader",
-					options: {
-						url: false
-					}
-				},
+					"style-loader", // Inject CSS to page
 					{
-						loader: "postcss-loader",
+						loader: "css-loader", // Translates CSS into CommonJS modules
+						options: {
+							url: false
+						}
+					}, 
+					{
+						loader: "postcss-loader", // Run PostCSS actions
 						options: {
 							postcssOptions: {
 								plugins: postCSSPlugins
