@@ -18,24 +18,57 @@
 	&__title {
 		font-family: "Geneva", sans-serif;
 		font-weight: 600;
-		font-size: 4.8rem;
+		font-size: 1.4rem;
 		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+
+		@mixin atSmall {
+			font-size: 2rem;
+		}
+		@mixin atMedium {
+			font-size: 3.2rem;
+		}
+		@mixin atLarge {
+			font-size: 4.8rem;
+		}
 	}
 	
 	&__subtitle {
 		font-family: "Geneva", sans-serif;
 		font-weight: 200;
-		font-size: 3rem;
+		font-size: 1.2rem;
 		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+
+		@mixin atSmall {
+			font-size: 1.8rem;
+		}
+		@mixin atMedium {
+			font-size: 3rem;
+		}
+		@mixin atLarge {
+			font-size: 4.2rem;
+		}
 	}
 
 	&__description {
 		max-width: 30rem;
 		margin: 0 auto 2rem auto;
 		font-family: "Geneva", sans-serif;
-		font-size: 2rem;
-		line-height: 2.8rem;
+		font-size: 1rem;
+		line-height: 1.6rem;
 		font-weight: 100;
 		text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
+
+		@mixin atSmall {
+			font-size: 1.2rem;
+			line-height: 1.8rem;
+		}
+		@mixin atMedium {
+			font-size: 2rem;
+			line-height: 2.8rem;
+		}
+		@mixin atLarge {
+			font-size: 3rem;
+			line-height: 3.8rem;
+		}
 	}
 }
