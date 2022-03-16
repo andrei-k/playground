@@ -3,5 +3,6 @@
 @import "base/_global";
 @import "base/_mixins";
 @import "modules/_hero";
-@import "modules/_text-block";
 @import "modules/_btn";
+@import "modules/_wrapper";
+@import "modules/_page-section";

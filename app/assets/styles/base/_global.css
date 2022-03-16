@@ -5,3 +5,19 @@ body {
 	background-color: $bgColor;
     color: #fff;
 }
+
+h1 {
+	font-family: "Geneva", sans-serif;
+	font-weight: 400;
+	font-size: 2.8rem;
+}
+
+.link {
+	color:$linkColor;
+	text-decoration: none;
+
+	&:hover {
+		color: $linkColor;
+		text-decoration: underline;
+	}
+}
