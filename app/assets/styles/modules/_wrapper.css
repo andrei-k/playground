@@ -1,7 +1,18 @@
 .wrapper {
-	max-width: 640px;
+	max-width: 900px;
+	overflow: hidden;
 	margin-left: auto;
 	margin-right: auto;
 	padding-left: 20px;
 	padding-right: 20px;
+
+	/* Make sure nested wrappers don't have additional padding */
+	.wrapper {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	&--narrow {
+		max-width: 640px;
+	}
 }
