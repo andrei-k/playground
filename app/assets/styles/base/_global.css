@@ -5,6 +5,7 @@
 body {
 	background-color: $bgColor;
     color: #fff;
+	font-family: 'Roboto', sans-serif;
 }
 
 img {
