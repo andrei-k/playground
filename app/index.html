@@ -44,75 +44,118 @@
 	<img srcset="./assets/images/examples/dog-resolution-small.jpg 570w, ./assets/images/examples/dog-resolution-medium.jpg 1200w, ./assets/images/examples/dog-resolution-large.jpg 1920w" alt="Example">
 	-->
 
-	<section class="section">
+	<div class="hero">
+		<picture>
+			<source srcset="./assets/images/examples/hero--large-i.jpg 1920w, ./assets/images/examples/hero--large-hi-dpi-i.jpg 3840w" media="(min-width: 1380px)">
+			<source srcset="./assets/images/examples/hero--medium-i.jpg 1380w, ./assets/images/examples/hero--medium-hi-dpi-i.jpg 2760w" media="(min-width: 990px)">
+			<source srcset="./assets/images/examples/hero--small-i.jpg 990w, ./assets/images/examples/hero--small-hi-dpi-i.jpg 1980w" media="(min-width: 640px)">
+			<img class="hero__image" srcset="./assets/images/examples/hero--smaller-i.jpg 640w, ./assets/images/examples/hero--smaller-hi-dpi-i.jpg 1280w" alt="Example">
+		</picture>
 
-		<div class="hero">
-			<picture>
-				<source srcset="./assets/images/examples/hero--large-i.jpg 1920w, ./assets/images/examples/hero--large-hi-dpi-i.jpg 3840w" media="(min-width: 1380px)">
-				<source srcset="./assets/images/examples/hero--medium-i.jpg 1380w, ./assets/images/examples/hero--medium-hi-dpi-i.jpg 2760w" media="(min-width: 990px)">
-				<source srcset="./assets/images/examples/hero--small-i.jpg 990w, ./assets/images/examples/hero--small-hi-dpi-i.jpg 1980w" media="(min-width: 640px)">
-				<img class="hero__image" srcset="./assets/images/examples/hero--smaller-i.jpg 640w, ./assets/images/examples/hero--smaller-hi-dpi-i.jpg 1280w" alt="Example">
-			</picture>
+		<div class="hero__text-content">
+			<div class="wrapper wrapper--narrow">
+				<h1 class="hero__title">Hero test</h1>
+				<h2 class="hero__subtitle">Just getting started...</h2>
+				<p class="hero__description">Lorem ipsum dolor sit amet.</p>
+				<a href="#" class="btn btn--large">Button</a>
+			</div>
+		</div>
+	</div>
+	
+	<div class="page-section">
+		<div class="wrapper wrapper--narrow">
+			<div class="generic-content">
+				<h1>Andrei Kalamkarov</h1>
+				<hr>
+				<p>I am a web and mobile app developer, UX designer, and project manager with over 19 years of professional experience. I currently work at <a class="link" href="https://www.concordia.ca/">Concordia University</a> in Montreal, focusing primarily on design and development with Adobe Experience Manager. (I am an Adobe Certified AEM 6 Developer.)</p>
+				<hr>
+				<p>One of my favourite hobbies is photography. I was published several times, held ten art shows, and placed a photo in an exhibition at the <em>Smithsonian National Museum of Natural History</em>.</p>
+				<hr>
+				<p>I hold a Bachelor's Degree in Computer Science from Dalhousie University in Halifax and a Graduate Certificate in Business Administration from the John Molson School of Business, Concordia University in Montreal.</p>
+				<hr>
+				<p><a class="link" href="https://www.linkedin.com/in/andreikalamkarov">LinkedIn</a></p>
+			</div>
+		</div>
+	</div>
 
-			<div class="hero__text-content">
-				<div class="wrapper wrapper--narrow">
-					<h1 class="hero__title">Hero test</h1>
-					<h2 class="hero__subtitle">Just getting started...</h2>
-					<p class="hero__description">Lorem ipsum dolor sit amet.</p>
-					<a href="#" class="btn btn--large">Button</a>
+	<div class="page-section">
+		<div class="wrapper">
+			<div class="row row--gutters">
+				<div class="row__medium-4">
+					<img src="./assets/images/examples/dog-crop-small.jpg" alt="Example">
+				</div>
+				<div class="row__medium-8">
+					<div class="generic-content">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ex metus, tincidunt eu suscipit faucibus, luctus sed mauris. Praesent rhoncus ex vel tempor congue. Morbi auctor arcu ut neque volutpat, in vestibulum orci porta. Vivamus tincidunt rutrum dui eget vulputate. Integer ultricies accumsan ligula, quis commodo erat convallis tincidunt. Aliquam rhoncus ut leo ullamcorper pulvinar. Nunc id fringilla orci, ac laoreet nulla. Duis sit amet risus sed ex accumsan lobortis. Phasellus fermentum sodales erat vel dictum. Vestibulum a eros felis. Duis rhoncus risus ipsum, in dapibus orci hendrerit ac.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ex metus, tincidunt eu suscipit faucibus, luctus sed mauris. Praesent rhoncus ex vel tempor congue. Morbi auctor arcu ut neque volutpat, in vestibulum orci porta. Vivamus tincidunt rutrum dui eget vulputate. Integer ultricies accumsan ligula, quis commodo erat convallis tincidunt. Aliquam rhoncus ut leo ullamcorper pulvinar. Nunc id fringilla orci, ac laoreet nulla. Duis sit amet risus sed ex accumsan lobortis. Phasellus fermentum sodales erat vel dictum. Vestibulum a eros felis. Duis rhoncus risus ipsum, in dapibus orci hendrerit ac.</p>
+					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+
+	<div id="features" class="page-section page-section--gray">
+		<div class="wrapper">
+			<h2 class="section-title">
+				<img class="section-title__icon" src="./assets/images/icons/star.svg"> 
+				Our <strong>Features</strong>
+			</h2>
+			
+			<div class="row row--gutters generic-content">
+				<div class="row__medium-6">
+					<div class="feature-item">
+						<img class="feature-item__icon" src="./assets/images/icons/rain.svg">
+						<h3 class="feature-item__title">We&rsquo;ll Watch the Weather</h3>
+						<p>Download our app and we&rsquo;ll send you a notice if it&rsquo;s about to rain in the next 20 minutes around your current location. A good rain can be refreshing, but sometimes you just want to stay dry.</p>
+					</div>
 		
-		<div class="page-section">
-			<div class="wrapper wrapper--narrow">
-				<div class="generic-content">
-					<h1>Andrei Kalamkarov</h1>
-					<hr>
-					<p>I am a web developer, UX designer, and project manager with over 19 years of professional experience. I currently work at <a class="link" href="https://www.concordia.ca/">Concordia University</a> in Montreal, specializing in Adobe AEM design and development, as well as mobile apps. (I am an Adobe Certified AEM 6 Developer)</p>
-					<hr>
-					<p>One of my favourite hobbies is photography. I was published several times, held ten art shows, and placed a photo in an exhibition at the <em>Smithsonian National Museum of Natural History</em>.</p>
-					<hr>
-					<p>I hold a Bachelor's Degree in Computer Science from Dalhousie University in Halifax and a Graduate Certificate in Business Administration from the John Molson School of Business, Concordia University in Montreal.</p>
-					<hr>
-					<p><a class="link" href="https://www.linkedin.com/in/andreikalamkarov">LinkedIn</a></p>
-				</div>
-			</div>
-		</div>
-
-		<div class="page-section">
-			<div class="wrapper">
-				<div class="row row--gutters">
-					<div class="row__medium-4">
-						<img src="./assets/images/examples/dog-crop-small.jpg" alt="Example">
+					<div class="feature-item">
+						<img class="feature-item__icon" src="./assets/images/icons/globe.svg">
+						<h3 class="feature-item__title">Global Guides</h3>
+						<p>We&rsquo;ve scoured the entire planet for the best retreats and beautiful vistas. If there&rsquo;s a corner of the world you want to escape to we know the most scenic and inspiring locations.</p>
 					</div>
-					<div class="row__medium-8">
-						<div class="generic-content">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ex metus, tincidunt eu suscipit faucibus, luctus sed mauris. Praesent rhoncus ex vel tempor congue. Morbi auctor arcu ut neque volutpat, in vestibulum orci porta. Vivamus tincidunt rutrum dui eget vulputate. Integer ultricies accumsan ligula, quis commodo erat convallis tincidunt. Aliquam rhoncus ut leo ullamcorper pulvinar. Nunc id fringilla orci, ac laoreet nulla. Duis sit amet risus sed ex accumsan lobortis. Phasellus fermentum sodales erat vel dictum. Vestibulum a eros felis. Duis rhoncus risus ipsum, in dapibus orci hendrerit ac.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ex metus, tincidunt eu suscipit faucibus, luctus sed mauris. Praesent rhoncus ex vel tempor congue. Morbi auctor arcu ut neque volutpat, in vestibulum orci porta. Vivamus tincidunt rutrum dui eget vulputate. Integer ultricies accumsan ligula, quis commodo erat convallis tincidunt. Aliquam rhoncus ut leo ullamcorper pulvinar. Nunc id fringilla orci, ac laoreet nulla. Duis sit amet risus sed ex accumsan lobortis. Phasellus fermentum sodales erat vel dictum. Vestibulum a eros felis. Duis rhoncus risus ipsum, in dapibus orci hendrerit ac.</p>
-						</div>
+				</div>
+		
+				<div class="row__medium-6">
+					<div class="feature-item">
+						<img class="feature-item__icon" src="./assets/images/icons/wifi.svg">
+						<h3 class="feature-item__title">Wi-Fi Waypoints</h3>
+						<p>We only send you on trips to places we can personally vouch for as being amazing. Which means we&rsquo;ve mapped out where local wi-fi spots are and marked them in our app&rsquo;s map view.</p>
+					</div>
+		
+					<div class="feature-item">
+						<img class="feature-item__icon" src="./assets/images/icons/fire.svg">
+						<h3 class="feature-item__title">Survival Kit</h3>
+						<p>Everytime you book an escape with us we send you a survival kit with the finest materials. The kit will allow you to setup a tent, start a fire, scratch your own back and lower your taxes.</p>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
+	
+	<footer>
+		<p><a href="#" class="btn btn--orange">Get in Touch</a></p>
+	</footer>
 
-		<div class="page-section page-section--gray">
-			<div class="wrapper wrapper--narrow">
-				<div class="generic-content">
-					<h1>Andrei Kalamkarov</h1>
-					<hr>
-					<p>I am a web developer, UX designer, and project manager with over 19 years of professional experience. I currently work at <a class="link" href="https://www.concordia.ca/">Concordia University</a> in Montreal, specializing in Adobe AEM design and development, as well as mobile apps. (I am an Adobe Certified AEM 6 Developer)</p>
-					<hr>
-					<p>One of my favourite hobbies is photography. I was published several times, held ten art shows, and placed a photo in an exhibition at the <em>Smithsonian National Museum of Natural History</em>.</p>
-					<hr>
-					<p>I hold a Bachelor's Degree in Computer Science from Dalhousie University in Halifax and a Graduate Certificate in Business Administration from the John Molson School of Business, Concordia University in Montreal.</p>
-					<hr>
-					<p><a class="link" href="https://www.linkedin.com/in/andreikalamkarov">LinkedIn</a></p>
-				</div>
-			</div>
+	  <!--
+	  <div class="modal">
+		<div class="modal__inner">
+		  <h2 class="section-title section-title--blue section-title--less-margin"><img src="./assets/images/icons/mail.svg" class="section-title__icon"> Get in <strong>Touch</strong></h2>
+		  <div class="wrapper wrapper--narrow">
+			<p class="modal__description">We will have an online order system in place soon. Until then, connect with us on any of the platforms below!</p>
+		  </div>
+	
+		  <div class="social-icons">
+			<a href="#" class="social-icons__icon"><img src=./"assets/images/icons/facebook.svg" alt="Facebook"></a>
+			<a href="#" class="social-icons__icon"><img src="./assets/images/icons/twitter.svg" alt="Twitter"></a>
+			<a href="#" class="social-icons__icon"><img src="./assets/images/icons/instagram.svg" alt="Instagram"></a>
+			<a href="#" class="social-icons__icon"><img src="./assets/images/icons/youtube.svg" alt="YouTube"></a>
+		  </div>
 		</div>
+		<div class="modal__close">X</div>
+	  </div>
+	  -->
 
-	</section>
 
 	<script src="./bundled.js"></script>
 
