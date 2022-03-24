@@ -7,7 +7,7 @@ if (module.hot) {
 }
 
 
-var bob = new Person("Bob", "red");
+var bob = new Person("Bob", "purple");
 bob.greet();
 
 var jane = new Person("Jane", "green");
