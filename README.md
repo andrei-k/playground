@@ -5,8 +5,8 @@ Personal playground project where I'll experiment with interesting things relate
 ## Installation
 
 ```
-git clone https://github.com/andrei-k/playground.git
-cd playground
+git clone https://github.com/andrei-k/web-playground.git
+cd web-playground
 npm install
 ```
 
