@@ -1,6 +1,6 @@
-# Playground
+# Playground with Web Development
 
-Personal playground project where I'll experiment with interesting things and keep up the momentum of doing some light coding.
+Personal playground project where I'll experiment with interesting things related to web development and keep up the momentum by doing some light coding.
 
 ## Installation
 
